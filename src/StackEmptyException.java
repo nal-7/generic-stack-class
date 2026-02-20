@@ -1,5 +1,5 @@
 public class StackEmptyException extends Exception {
-    public StackEmptyException(String message) {
-        super(message);
+    public StackEmptyException(String m) {
+        super(m);
     }
 }
