@@ -30,7 +30,7 @@ public class Stack<T> {
      */
     public void push(T value) throws StackFullException {
         if (top >= elements.length - 1) {
-            throw new StackFullException("Stack is full! Cannot push element.");
+            throw new StackFullException("Stack is full! The element can't be pushed!");
         }
         elements[++top] = value;
     }
